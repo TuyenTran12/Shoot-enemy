@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -147,14 +146,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 144687439}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9bf14ae5796a79241be5af6597a42209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 3992221341905217251, guid: a78375c9cf6a5a54a8282528a3e17b4d, type: 3}
   Enemy: {fileID: 5738059900598616426, guid: 984b781f553a72040b3db7aba8914b12, type: 3}
-  timeSwap: 2
+  SwapTime: 2
   TxtPoint: {fileID: 1054756223}
   isEndGame: 0
 --- !u!4 &144687441

@@ -10,7 +10,7 @@ public class GameController : MonoBehaviour
 
     public GameObject Enemy;
 
-    public float timeSwap;
+    public float SwapTime;
 
     float m_SwapTime;
 
@@ -33,11 +33,11 @@ public class GameController : MonoBehaviour
         m_SwapTime -= Time.deltaTime;
         if(m_SwapTime <= 0)
         {
-            SwapTime();
-            m_SwapTime = timeSwap;
+            SwapBall();
+            m_SwapTime = SwapTime;
         }    
     }
-    public void SwapTime()
+    public void SwapBall()
     {
         Vector2 vector2 = new Vector2(Random.Range(5.1f, -5.2f), 6);
 

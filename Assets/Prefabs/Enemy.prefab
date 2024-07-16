@@ -171,5 +171,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 347ccfcbb3aa05141ba9e9585e0874da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 8287048842723257152, guid: f35c98d877f48524386ab783f53ac094, type: 3}
-  bullet: {fileID: 3992221341905217251, guid: a78375c9cf6a5a54a8282528a3e17b4d, type: 3}
